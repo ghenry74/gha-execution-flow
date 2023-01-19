@@ -84,6 +84,6 @@ jobs:
     if: failure()
     steps:
       - name: Display info
-      - run: |
-        echo "Something went awry"
-        echo "${{ toJSON(github) }}"
+        run: |
+          echo "Something went wrong"
+          echo "${{ toJSON(github) }}"
